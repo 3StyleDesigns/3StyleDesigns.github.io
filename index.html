@@ -6,7 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>3Style Designs</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -15,17 +15,27 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body style="background-image: url(assets/img/bg.jpg)">
-        <!-- Masthead-->
+    <!-- Masthead-->
         <div class="masthead">
             <div class="masthead-content text-white">
-                <div class="container-fluid px-4 px-lg-0">
-                    <h1 class="fst-italic lh-1 mb-4">3Style Designs Creating Websites for you!</h1>
+                <div class="container-fluid px-6 px-lg-0">
+
+                    <img src="assets/img/logo.png" alt="Company Logo"/>
+
+                    <h1 class="fst-italic lh-1 mb-4">Developing Websites for you!</h1>
                     <p class="mb-5">We're working hard to finish the development of our site. Sign up below to receive updates and to be notified when we launch!</p>
+                    <form action="3StyleDesigns.github.io/php/formprocessor.php">
+                        <div class="row input-group-newsletter">
+                            <div class="col"><input class="form-control" id="email" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
+                            <div class="col-auto"><button class="btn btn-primary" id="submitButton" type="submit">Notify Me!</button></div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
         <div class="social-icons">
             <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
+                <!-- a class="btn btn-dark m-3" href="#!"><i class="fab fa-twitter"></i></a> -->
                 <a class="btn btn-dark m-3" target="_blank" href="https://www.facebook.com/3StyleDesigns/"><i class="fab fa-facebook-f"></i></a>
             </div>
         </div>
